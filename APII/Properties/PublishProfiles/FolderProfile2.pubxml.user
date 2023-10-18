@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="APIContext">
+      <Value>Server=RAS-ASTUTI%3bDatabase=newAPI%3bUser Id=sa%3bPassword=sapassword%3bTrusted_Connection=True%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="MyContext">
+      <Value>Server=RAS-ASTUTI%3bDatabase=newAPI%3bUser Id=sa%3bPassword=sapassword%3bTrusted_Connection=True%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
